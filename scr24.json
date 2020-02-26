@@ -1,0 +1,9 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 0.1
+ */
+
+// Database 'scr24'
+// scr24.FOOTBALL__DENVER_BRONCOS
+
+[{"LastName":"Miller","FirstName":"Von","Position":"LOLB","ID":"1"}, {"LastName":"Lindsay","FirstName":"Phillip","Position":"RB","ID":"2"}, {"LastName":"Lock","FirstName":"Drew","Position":"QB","ID":"3"}, {"LastName":"Sutton","FirstName":"Courtland","Position":"WR","ID":"4"}, {"LastName":"Fant","FirstName":"Noah","Position":"TE","ID":"5"}, {"LastName":"Janovich","FirstName":"Andy","Position":"FB","ID":"6"}, {"LastName":"Risner","FirstName":"Dalton","Position":"LG","ID":"7"}, {"LastName":"Bolles","FirstName":"Garett","Position":"LT","ID":"8"}, {"LastName":"McGovern","FirstName":"Connor","Position":"C","ID":"9"}, {"LastName":"Leary","FirstName":"Ronald","Position":"RG","ID":"10"}, {"LastName":"James","FirstName":"Ja'Wuan","Position":"RT","ID":"11"}, {"LastName":"Hamilton","FirstName":"DaeSean","Position":"WR","ID":"12"}, {"LastName":"Wolfe","FirstName":"Derek","Position":"LE","ID":"13"}, {"LastName":"Harris","FirstName":"Shelby","Position":"RE","ID":"14"}, {"LastName":"Purcell","FirstName":"Mike","Position":"DT","ID":"15"}, {"LastName":"Chubb","FirstName":"Bradley","Position":"ROLB","ID":"16"}, {"LastName":"Johnson","FirstName":"A.J.","Position":"MLB","ID":"17"}, {"LastName":"Davis","FirstName":"Todd","Position":"MLB","ID":"18"}, {"LastName":"Harris","FirstName":"Chris","Position":"CB","ID":"19"}, {"LastName":"Yladom","FirstName":"Isaac","Position":"CB","ID":"20"}, {"LastName":"Simmons","FirstName":"Justin","Position":"FS","ID":"21"}, {"LastName":"Jackson","FirstName":"Kareem","Position":"SS","ID":"22"}]
