@@ -1,0 +1,251 @@
+-- MySQL dump 10.13  Distrib 5.7.25, for Linux (x86_64)
+--
+-- Host: localhost    Database: mysql
+-- ------------------------------------------------------
+-- Server version	5.7.25-google-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Current Database: `nfl_teams`
+--
+
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `nfl_teams` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+USE `nfl_teams`;
+
+--
+-- Table structure for table `49ers_tbl`
+--
+
+DROP TABLE IF EXISTS `49ers_tbl`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `49ers_tbl` (
+  `p_id` int(11) NOT NULL AUTO_INCREMENT,
+  `49ers_lname` varchar(50) NOT NULL,
+  `49ers_fname` varchar(50) NOT NULL,
+  `49ers_pos` varchar(10) NOT NULL,
+  `49ers_grade` double NOT NULL,
+  PRIMARY KEY (`p_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `49ers_tbl`
+--
+
+LOCK TABLES `49ers_tbl` WRITE;
+/*!40000 ALTER TABLE `49ers_tbl` DISABLE KEYS */;
+INSERT INTO `49ers_tbl` VALUES (1,'Garoppolo','Jimmy','QB',78.2),(2,'Breida','Matt','RB',73.1),(3,'Sanders','Emmanuel','WR',78.4),(4,'Kittle','George','TE',95),(5,'Warner','Fred','LB',47.1),(6,'Sherman','Richard','DB',78.2);
+/*!40000 ALTER TABLE `49ers_tbl` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `chiefs_tbl`
+--
+
+DROP TABLE IF EXISTS `chiefs_tbl`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `chiefs_tbl` (
+  `p_id` int(11) NOT NULL AUTO_INCREMENT,
+  `chiefs_lname` varchar(50) NOT NULL,
+  `chiefs_fname` varchar(50) NOT NULL,
+  `chiefs_pos` varchar(10) NOT NULL,
+  `chiefs_grade` double NOT NULL,
+  PRIMARY KEY (`p_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `chiefs_tbl`
+--
+
+LOCK TABLES `chiefs_tbl` WRITE;
+/*!40000 ALTER TABLE `chiefs_tbl` DISABLE KEYS */;
+INSERT INTO `chiefs_tbl` VALUES (1,'Mahomes','Patrick','QB',84.1),(2,'Williams','Damien','RB',65.7),(3,'Hill','Tyreek','WR',85.4),(4,'Kelce','Travis','TE',85.1),(5,'O\'Daniel','Dorian','LB',77.3),(6,'Brown','Alex','DB',48.3);
+/*!40000 ALTER TABLE `chiefs_tbl` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `eagles_tbl`
+--
+
+DROP TABLE IF EXISTS `eagles_tbl`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `eagles_tbl` (
+  `p_id` int(11) NOT NULL AUTO_INCREMENT,
+  `eagles_lname` varchar(50) NOT NULL,
+  `eagles_fname` varchar(50) NOT NULL,
+  `eagles_pos` varchar(10) NOT NULL,
+  `eagles_grade` double NOT NULL,
+  PRIMARY KEY (`p_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `eagles_tbl`
+--
+
+LOCK TABLES `eagles_tbl` WRITE;
+/*!40000 ALTER TABLE `eagles_tbl` DISABLE KEYS */;
+INSERT INTO `eagles_tbl` VALUES (1,'Wentz','Carson','QB',75.6),(2,'Sanders','Miles','RB',62.3),(3,'Jeffrey','Alshon','WR',74.8),(4,'Ertz','Zach','TE',73.4),(5,'Edwards','TJ','LB',86.9),(6,'Scandrick','Orlando','DB',56.4);
+/*!40000 ALTER TABLE `eagles_tbl` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `packers_tbl`
+--
+
+DROP TABLE IF EXISTS `packers_tbl`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `packers_tbl` (
+  `p_id` int(11) NOT NULL AUTO_INCREMENT,
+  `packers_lname` varchar(50) NOT NULL,
+  `packers_fname` varchar(50) NOT NULL,
+  `packers_pos` varchar(10) NOT NULL,
+  `packers_grade` double NOT NULL,
+  PRIMARY KEY (`p_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `packers_tbl`
+--
+
+LOCK TABLES `packers_tbl` WRITE;
+/*!40000 ALTER TABLE `packers_tbl` DISABLE KEYS */;
+INSERT INTO `packers_tbl` VALUES (1,'Rodgers','Aaron','QB',81.2),(2,'Jones','Aaron','RB',85.1),(3,'Adams','Davante','WR',83.5),(4,'Graham','Jimmy','TE',55),(5,'Goodson','BJ','LB',79.1),(6,'Amos','Adrian','DB',87.4);
+/*!40000 ALTER TABLE `packers_tbl` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `patriots_tbl`
+--
+
+DROP TABLE IF EXISTS `patriots_tbl`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `patriots_tbl` (
+  `p_id` int(11) NOT NULL AUTO_INCREMENT,
+  `patriots_lname` varchar(50) NOT NULL,
+  `patriots_fname` varchar(50) NOT NULL,
+  `patriots_pos` varchar(10) NOT NULL,
+  `patriots_grade` double NOT NULL,
+  PRIMARY KEY (`p_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `patriots_tbl`
+--
+
+LOCK TABLES `patriots_tbl` WRITE;
+/*!40000 ALTER TABLE `patriots_tbl` DISABLE KEYS */;
+INSERT INTO `patriots_tbl` VALUES (1,'Brady','Tom','QB',80.4),(2,'White','James','RB',76.1),(3,'Edelman','Julian','WR',72),(4,'Watson','Benjamin','TE',53.6),(5,'Collins','Jamie','LB',37.3),(6,'Gilmore','Stephon','DB',53.9);
+/*!40000 ALTER TABLE `patriots_tbl` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `ravens_tbl`
+--
+
+DROP TABLE IF EXISTS `ravens_tbl`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ravens_tbl` (
+  `p_id` int(11) NOT NULL AUTO_INCREMENT,
+  `ravens_lname` varchar(50) NOT NULL,
+  `ravens_fname` varchar(50) NOT NULL,
+  `ravens_pos` varchar(10) NOT NULL,
+  `ravens_grade` double NOT NULL,
+  PRIMARY KEY (`p_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ravens_tbl`
+--
+
+LOCK TABLES `ravens_tbl` WRITE;
+/*!40000 ALTER TABLE `ravens_tbl` DISABLE KEYS */;
+INSERT INTO `ravens_tbl` VALUES (1,'Jackson','Lamar','QB',91.1),(2,'Ingram','Mark','RB',80),(3,'Brown','Marquise','WR',70.8),(4,'Andrews','Mark','TE',90.8),(5,'Bynes','Josh','LB',57.8),(6,'Peters','Marcus','DB',62.2);
+/*!40000 ALTER TABLE `ravens_tbl` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `saints_tbl`
+--
+
+DROP TABLE IF EXISTS `saints_tbl`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `saints_tbl` (
+  `p_id` int(11) NOT NULL AUTO_INCREMENT,
+  `saints_lname` varchar(50) NOT NULL,
+  `saints_fname` varchar(50) NOT NULL,
+  `saints_pos` varchar(10) NOT NULL,
+  `saints_grade` double NOT NULL,
+  PRIMARY KEY (`p_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `saints_tbl`
+--
+
+LOCK TABLES `saints_tbl` WRITE;
+/*!40000 ALTER TABLE `saints_tbl` DISABLE KEYS */;
+INSERT INTO `saints_tbl` VALUES (1,'Brees','Drew','QB',91.2),(2,'kamara','Alvin','RB',70),(3,'Thomas','Michael','WR',90.4),(4,'Ginn','Ted','WR',56.8),(5,'Cook','Jared','TE',75.9),(6,'Davis','Demario','LB',90.1),(7,'Williams','Marcus','DB',87.3);
+/*!40000 ALTER TABLE `saints_tbl` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `texans_tbl`
+--
+
+DROP TABLE IF EXISTS `texans_tbl`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `texans_tbl` (
+  `p_id` int(11) NOT NULL AUTO_INCREMENT,
+  `texans_lname` varchar(50) NOT NULL,
+  `texans_fname` varchar(50) NOT NULL,
+  `texans_pos` varchar(10) NOT NULL,
+  `texans_grade` double NOT NULL,
+  PRIMARY KEY (`p_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `texans_tbl`
+--
+
+LOCK TABLES `texans_tbl` WRITE;
+/*!40000 ALTER TABLE `texans_tbl` DISABLE KEYS */;
+INSERT INTO `texans_tbl` VALUES (1,'Watson','Deshaun','QB',81),(2,'Johnson','Duke','RB',74.2),(3,'Hopkins','Deandre','WR',87.3),(4,'Fells','Darren','TE',60.1),(5,'Moore','AJ','LB',91.6),(6,'Reid','Justin','DB',69.4);
+/*!40000 ALTER TABLE `texans_tbl` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2020-05-05  3:05:13
